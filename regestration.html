@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regestration.css">
+</head>
+<body>
+   <!-- action="loginPage.html" -->
+    <form  id="regesterform" action="loginPage.html" > 
+            <div>
+                <p>fristName</p>
+                <input id="fristName" type="text" name="fristName">
+                <span id="sfristName">enter valid frist name</span>
+            </div>
+            <div>
+                <p>lastName</p>
+                <input id="lastName" type="text" name="lastName">
+                <span id="slastName">enter valid last name</span>
+            </div>
+        
+            <div>
+                <p>email</p>
+                <input id="email" type="text" name="email">
+                <span id="sEmail">enter valid mail</span>
+                <span id="usedEmail">this email is used defore</span>
+            </div>
+        
+            <div>
+                <p>password</p>
+                <input id="password" type="password" name="password">
+                <span id="sPassword">enter vaild password</span>
+            </div>
+            <div>
+                <p>machPasword</p>
+                <input id="machPasword" type="password" name="password"><span id="sMachPasword">must match the prevous password</span>
+            </div>
+        <input type="submit">
+    </form>
+    <script src="regestration.js"></script>
+</body>
+</html>

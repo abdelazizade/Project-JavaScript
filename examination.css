@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.allpage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.quiz-app{
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-app .quiz-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.count {
+    font-weight: bold;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+.quiz-app .quiz-info .catogory{
+    flex: 1;
+    text-align: right;
+}
+
+.quiz-app .quiz-info .count{
+flex: 1;
+text-align: left;
+font-size: 20px;
+}
+#question{
+    font-size: 24px;
+    padding: 15px;
+}
+.answers-area {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inswer{
+margin-top: 10px;
+flex: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.inswer:hover {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    width: 150px;
+    background-color: #4caf50;;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #70af72;
+    
+}
+
+.choosed{
+    background-color: #4caf50;
+    color: white;
+}
+
+#submit{
+    display: none;
+}
+
+#sideMark{
+    width: 25%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.newDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#countdown {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: white;
+}
+
+/* //////////////////// */

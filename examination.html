@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="examination.css">
+</head>
+<body>
+    <div class="allpage">
+        <div class="quiz-app">
+            <div class="quiz-info">
+                <div class="count">Quistion Count : <span id="numberOfQuist">#1</span></div>
+                <div class="catogory" id="mark"><button id="markButton">MARK</button></div>
+            </div>
+            <div id="question">
+                <h2></h2>
+            </div>
+            <div class="answers-area">
+                    <div class="answers">
+                        <div class="inswer " id="A">inswer1</div>
+                        <div class="inswer " id="B">inswer2</div>
+                        <div class="inswer " id="C">inswer3</div>
+                        <div class="inswer " id="D">inswer4</div>
+                    </div>
+
+                <div class="button">
+                    <button id="previous">previous</button>
+                    <button id="submit">submit</button>
+                    <button id="next">next</button>
+                </div>
+                
+                <div class="countdown">
+                    <span class="minutes"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="sideMark">
+            <div id="countdown"></div>
+        </div>
+    </div>
+    <script src="examination.js"></script>
+</body>
+</html>
